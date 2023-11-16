@@ -1,0 +1,70 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.overlay {
+  position: fixed;
+  top: 50vh;
+  left: 10%;
+  width: 80%;
+  height: 25vh;
+  z-index: 100;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .overlay {
+    left: calc(50% - 20rem);
+    width: 40rem;
+  }
+}
+
+.price {
+  position: relative;
+  bottom: 30%;
+  right: -35rem;
+  font-weight: bold;
+  color: #8a2b06;
+}
+
+.action {
+  position: relative;
+  justify-content: space-between;
+  right: -30rem;
+  border: 10px;
+  font-weight: bold;
+}
+
+.close {
+  position: relative;
+  bottom: 2rem;
+  left: -1rem;
+  border: 2.5px solid #8a2b06;
+  width: 10%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.order {
+  position: relative;
+  bottom: 2rem;
+  border: 2.5px solid #8a2b06;
+  background-color: #8a2b06;
+  width: 10%;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.close:hover {
+  background-color: #8a2b06;
+  font-weight: bold;
+  color: whitesmoke;
+}
