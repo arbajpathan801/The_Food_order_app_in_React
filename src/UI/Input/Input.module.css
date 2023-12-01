@@ -1,0 +1,13 @@
+.input {
+    position:relative;
+    right: -1rem;
+}
+.input label{
+    font-weight: bold;
+}
+
+.input input {
+    text-align: center;
+    width: 30%;
+    border-radius: 5px;
+}

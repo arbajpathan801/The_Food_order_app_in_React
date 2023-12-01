@@ -1,0 +1,12 @@
+.summary {
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    margin: -10rem 20rem auto;
+    align-items: start;
+    background: #222;
+    box-shadow: 0 1px 18px rgba(13, 13, 13, 0.26);
+    border-radius: 10px;
+
+}
